@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block title %}Đăng Ký{% endblock %}
+{% block content %}
+<h1>Đăng Ký</h1>
+{% if error %}
+    <div style="color: red;">{{ error }}</div>
+{% endif %}
+<form method="POST" action="{{ url_for('auth.register') }}">
+    <input type="email" name="email" placeholder="Nhập email của bạn" required>
+    <input type="password" name="password" placeholder="Tạo mật khẩu an toàn" required>
+    <input type="password" name="confirm_password" placeholder="Nhập lại mật khẩu" required>
+    <button type="submit">Đăng ký</button>
+</form>
+<p>Đã có tài khoản? <a href="{{ url_for('auth.login') }}">Đăng nhập</a></p>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    h1 {
+        text-align: center;
+    }
+    form {
+        max-width: 300px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    input[type="email"], input[type="password"], button {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+        form {
+            padding: 10px;
+        }
+        input[type="email"], input[type="password"], button {
+            padding: 8px;
+        }
+    }
+</style>
+{% endblock %}

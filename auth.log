@@ -1,0 +1,604 @@
+2025-04-18 13:49:00,315 - Error setting up sample data: (pymysql.err.OperationalError) (1054, "Unknown column 'user.created_at' in 'field list'")
+[SQL: SELECT user.id AS user_id, user.email AS user_email, user.password_hash AS user_password_hash, user.created_at AS user_created_at, user.updated_at AS user_updated_at 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'admin@example.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-04-18 13:49:00,324 -  * Restarting with stat
+2025-04-18 13:49:01,084 - Error setting up sample data: (pymysql.err.OperationalError) (1054, "Unknown column 'user.created_at' in 'field list'")
+[SQL: SELECT user.id AS user_id, user.email AS user_email, user.password_hash AS user_password_hash, user.created_at AS user_created_at, user.updated_at AS user_updated_at 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'admin@example.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-04-18 13:49:01,097 -  * Debugger is active!
+2025-04-18 13:49:01,100 -  * Debugger PIN: 395-506-349
+2025-04-18 13:49:01,136 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-18 13:50:02,215 - Error setting up sample data: (pymysql.err.OperationalError) (1054, "Unknown column 'user.created_at' in 'field list'")
+[SQL: SELECT user.id AS user_id, user.email AS user_email, user.password_hash AS user_password_hash, user.created_at AS user_created_at, user.updated_at AS user_updated_at 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'admin@example.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-04-18 13:50:02,223 -  * Restarting with stat
+2025-04-18 13:50:02,994 - Error setting up sample data: (pymysql.err.OperationalError) (1054, "Unknown column 'user.created_at' in 'field list'")
+[SQL: SELECT user.id AS user_id, user.email AS user_email, user.password_hash AS user_password_hash, user.created_at AS user_created_at, user.updated_at AS user_updated_at 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'admin@example.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-04-18 13:50:03,000 -  * Debugger is active!
+2025-04-18 13:50:03,004 -  * Debugger PIN: 395-506-349
+2025-04-18 13:50:03,039 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-18 13:50:20,146 -  * Detected change in 'D:\\BaOLaM\\CloudSaaS\\run.py', reloading
+2025-04-18 13:50:20,271 -  * Restarting with stat
+2025-04-18 13:50:21,053 - Error setting up sample data: (pymysql.err.OperationalError) (1054, "Unknown column 'user.created_at' in 'field list'")
+[SQL: SELECT user.id AS user_id, user.email AS user_email, user.password_hash AS user_password_hash, user.created_at AS user_created_at, user.updated_at AS user_updated_at 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'admin@example.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-04-18 13:50:21,060 -  * Debugger is active!
+2025-04-18 13:50:21,064 -  * Debugger PIN: 395-506-349
+2025-04-18 13:50:21,100 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-18 13:52:32,891 - Error setting up sample data: (pymysql.err.OperationalError) (1054, "Unknown column 'user.created_at' in 'field list'")
+[SQL: SELECT user.id AS user_id, user.email AS user_email, user.password_hash AS user_password_hash, user.created_at AS user_created_at, user.updated_at AS user_updated_at 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'admin@example.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-04-18 13:52:32,900 -  * Restarting with stat
+2025-04-18 13:52:33,673 - Error setting up sample data: (pymysql.err.OperationalError) (1054, "Unknown column 'user.created_at' in 'field list'")
+[SQL: SELECT user.id AS user_id, user.email AS user_email, user.password_hash AS user_password_hash, user.created_at AS user_created_at, user.updated_at AS user_updated_at 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'admin@example.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+2025-04-18 13:52:33,679 -  * Debugger is active!
+2025-04-18 13:52:33,683 -  * Debugger PIN: 395-506-349
+2025-04-18 13:52:33,722 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-18 13:52:45,673 - 127.0.0.1 - - [18/Apr/2025 13:52:45] "[35m[1mGET /register HTTP/1.1[0m" 500 -
+2025-04-18 13:52:45,807 - 127.0.0.1 - - [18/Apr/2025 13:52:45] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-18 13:52:45,808 - 127.0.0.1 - - [18/Apr/2025 13:52:45] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-18 13:52:45,842 - 127.0.0.1 - - [18/Apr/2025 13:52:45] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-04-18 13:52:45,848 - 127.0.0.1 - - [18/Apr/2025 13:52:45] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 13:52:45,862 - 127.0.0.1 - - [18/Apr/2025 13:52:45] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 13:52:52,432 - 127.0.0.1 - - [18/Apr/2025 13:52:52] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 13:52:52,450 - 127.0.0.1 - - [18/Apr/2025 13:52:52] "GET /auth/login HTTP/1.1" 200 -
+2025-04-18 13:52:52,491 - 127.0.0.1 - - [18/Apr/2025 13:52:52] "[35m[1mGET /static/css/style.css HTTP/1.1[0m" 500 -
+2025-04-18 13:52:59,248 - 127.0.0.1 - - [18/Apr/2025 13:52:59] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-04-18 13:52:59,260 - 127.0.0.1 - - [18/Apr/2025 13:52:59] "GET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-18 13:52:59,262 - 127.0.0.1 - - [18/Apr/2025 13:52:59] "GET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-18 13:52:59,276 - 127.0.0.1 - - [18/Apr/2025 13:52:59] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 13:52:59,296 - 127.0.0.1 - - [18/Apr/2025 13:52:59] "GET /auth/login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-04-18 13:52:59,311 - 127.0.0.1 - - [18/Apr/2025 13:52:59] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 13:53:04,493 - 127.0.0.1 - - [18/Apr/2025 13:53:04] "GET /auth/login HTTP/1.1" 200 -
+2025-04-18 13:54:00,064 - 127.0.0.1 - - [18/Apr/2025 13:54:00] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-04-18 13:54:00,079 - 127.0.0.1 - - [18/Apr/2025 13:54:00] "GET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-18 13:54:00,079 - 127.0.0.1 - - [18/Apr/2025 13:54:00] "GET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-18 13:54:00,098 - 127.0.0.1 - - [18/Apr/2025 13:54:00] "GET /auth/login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-04-18 13:54:00,103 - 127.0.0.1 - - [18/Apr/2025 13:54:00] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 13:54:00,129 - 127.0.0.1 - - [18/Apr/2025 13:54:00] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 13:54:18,482 - 127.0.0.1 - - [18/Apr/2025 13:54:18] "GET /auth/login HTTP/1.1" 200 -
+2025-04-18 13:54:20,120 - 127.0.0.1 - - [18/Apr/2025 13:54:20] "[35m[1mGET /domains/add HTTP/1.1[0m" 500 -
+2025-04-18 13:54:20,133 - 127.0.0.1 - - [18/Apr/2025 13:54:20] "GET /domains/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-18 13:54:20,139 - 127.0.0.1 - - [18/Apr/2025 13:54:20] "GET /domains/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-18 13:54:20,151 - 127.0.0.1 - - [18/Apr/2025 13:54:20] "GET /domains/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 13:54:20,158 - 127.0.0.1 - - [18/Apr/2025 13:54:20] "GET /domains/add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-04-18 13:54:20,168 - 127.0.0.1 - - [18/Apr/2025 13:54:20] "GET /domains/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 13:54:34,505 - 127.0.0.1 - - [18/Apr/2025 13:54:34] "GET /auth/register HTTP/1.1" 200 -
+2025-04-18 13:54:34,548 - 127.0.0.1 - - [18/Apr/2025 13:54:34] "[35m[1mGET /static/css/style.css HTTP/1.1[0m" 500 -
+2025-04-18 13:55:49,177 - Error setting up sample data: (pymysql.err.ProgrammingError) (1146, "Table 'dbsaas.user' doesn't exist")
+[SQL: SELECT user.id AS user_id, user.email AS user_email, user.password_hash AS user_password_hash, user.created_at AS user_created_at, user.updated_at AS user_updated_at 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'admin@example.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2025-04-18 13:55:49,190 -  * Restarting with stat
+2025-04-18 13:55:49,975 - Error setting up sample data: (pymysql.err.ProgrammingError) (1146, "Table 'dbsaas.user' doesn't exist")
+[SQL: SELECT user.id AS user_id, user.email AS user_email, user.password_hash AS user_password_hash, user.created_at AS user_created_at, user.updated_at AS user_updated_at 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'admin@example.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2025-04-18 13:55:49,982 -  * Debugger is active!
+2025-04-18 13:55:49,985 -  * Debugger PIN: 395-506-349
+2025-04-18 13:55:50,021 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-18 13:55:58,912 - 127.0.0.1 - - [18/Apr/2025 13:55:58] "GET /auth/register HTTP/1.1" 200 -
+2025-04-18 13:55:58,969 - 127.0.0.1 - - [18/Apr/2025 13:55:58] "[35m[1mGET /static/css/style.css HTTP/1.1[0m" 500 -
+2025-04-18 13:56:05,188 - 127.0.0.1 - - [18/Apr/2025 13:56:05] "POST /auth/register HTTP/1.1" 200 -
+2025-04-18 13:56:05,223 - 127.0.0.1 - - [18/Apr/2025 13:56:05] "[35m[1mGET /static/css/style.css HTTP/1.1[0m" 500 -
+2025-04-18 13:56:08,031 - 127.0.0.1 - - [18/Apr/2025 13:56:08] "GET /auth/login HTTP/1.1" 200 -
+2025-04-18 13:56:08,064 - 127.0.0.1 - - [18/Apr/2025 13:56:08] "[35m[1mGET /static/css/style.css HTTP/1.1[0m" 500 -
+2025-04-18 13:56:12,315 - 127.0.0.1 - - [18/Apr/2025 13:56:12] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-04-18 13:56:12,420 - 127.0.0.1 - - [18/Apr/2025 13:56:12] "GET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-18 13:56:12,422 - 127.0.0.1 - - [18/Apr/2025 13:56:12] "GET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-18 13:56:12,458 - 127.0.0.1 - - [18/Apr/2025 13:56:12] "GET /auth/login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-04-18 13:56:12,463 - 127.0.0.1 - - [18/Apr/2025 13:56:12] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 13:56:12,484 - 127.0.0.1 - - [18/Apr/2025 13:56:12] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 14:00:23,510 - 127.0.0.1 - - [18/Apr/2025 14:00:23] "[35m[1mGET /domains/add HTTP/1.1[0m" 500 -
+2025-04-18 14:00:23,529 - 127.0.0.1 - - [18/Apr/2025 14:00:23] "GET /domains/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-18 14:00:23,529 - 127.0.0.1 - - [18/Apr/2025 14:00:23] "GET /domains/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-18 14:00:23,542 - 127.0.0.1 - - [18/Apr/2025 14:00:23] "GET /domains/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 14:00:23,549 - 127.0.0.1 - - [18/Apr/2025 14:00:23] "GET /domains/add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-04-18 14:00:29,003 - 127.0.0.1 - - [18/Apr/2025 14:00:29] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 14:00:29,011 - 127.0.0.1 - - [18/Apr/2025 14:00:29] "GET /auth/login HTTP/1.1" 200 -
+2025-04-18 14:00:29,061 - 127.0.0.1 - - [18/Apr/2025 14:00:29] "[35m[1mGET /static/css/style.css HTTP/1.1[0m" 500 -
+2025-04-18 14:00:31,010 - 127.0.0.1 - - [18/Apr/2025 14:00:31] "GET /auth/register HTTP/1.1" 200 -
+2025-04-18 14:00:31,047 - 127.0.0.1 - - [18/Apr/2025 14:00:31] "[35m[1mGET /static/css/style.css HTTP/1.1[0m" 500 -
+2025-04-18 14:00:32,292 - 127.0.0.1 - - [18/Apr/2025 14:00:32] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2025-04-18 14:00:32,296 - 127.0.0.1 - - [18/Apr/2025 14:00:32] "GET /auth/login?next=%2Fdashboard%2F HTTP/1.1" 200 -
+2025-04-18 14:00:32,330 - 127.0.0.1 - - [18/Apr/2025 14:00:32] "[35m[1mGET /static/css/style.css HTTP/1.1[0m" 500 -
+2025-04-18 14:00:34,475 - 127.0.0.1 - - [18/Apr/2025 14:00:34] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 14:00:34,483 - 127.0.0.1 - - [18/Apr/2025 14:00:34] "GET /auth/login HTTP/1.1" 200 -
+2025-04-18 14:00:34,520 - 127.0.0.1 - - [18/Apr/2025 14:00:34] "[35m[1mGET /static/css/style.css HTTP/1.1[0m" 500 -
+2025-04-18 14:00:35,740 - 127.0.0.1 - - [18/Apr/2025 14:00:35] "[35m[1mGET /domains/add HTTP/1.1[0m" 500 -
+2025-04-18 14:00:35,756 - 127.0.0.1 - - [18/Apr/2025 14:00:35] "GET /domains/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-18 14:00:35,763 - 127.0.0.1 - - [18/Apr/2025 14:00:35] "GET /domains/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-18 14:00:35,769 - 127.0.0.1 - - [18/Apr/2025 14:00:35] "GET /domains/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 14:00:35,777 - 127.0.0.1 - - [18/Apr/2025 14:00:35] "GET /domains/add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-04-18 14:02:18,501 -  * Detected change in 'D:\\BaOLaM\\CloudSaaS\\app\\models.py', reloading
+2025-04-18 14:02:18,667 -  * Restarting with stat
+2025-04-18 14:02:43,372 - Error setting up sample data: (pymysql.err.ProgrammingError) (1146, "Table 'dbsaas.user' doesn't exist")
+[SQL: SELECT user.id AS user_id, user.email AS user_email, user.password_hash AS user_password_hash, user.created_at AS user_created_at, user.updated_at AS user_updated_at 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'admin@example.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2025-04-18 14:02:43,380 -  * Restarting with stat
+2025-04-18 14:02:44,133 - Error setting up sample data: (pymysql.err.ProgrammingError) (1146, "Table 'dbsaas.user' doesn't exist")
+[SQL: SELECT user.id AS user_id, user.email AS user_email, user.password_hash AS user_password_hash, user.created_at AS user_created_at, user.updated_at AS user_updated_at 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'admin@example.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2025-04-18 14:02:44,140 -  * Debugger is active!
+2025-04-18 14:02:44,143 -  * Debugger PIN: 395-506-349
+2025-04-18 14:02:44,178 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-18 14:03:56,551 -  * Restarting with stat
+2025-04-18 14:03:57,307 -  * Debugger is active!
+2025-04-18 14:03:57,310 -  * Debugger PIN: 395-506-349
+2025-04-18 14:03:57,348 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-18 14:05:38,633 - Error setting up sample data: (pymysql.err.ProgrammingError) (1146, "Table 'dbsaas.user' doesn't exist")
+[SQL: SELECT user.id AS user_id, user.email AS user_email, user.password_hash AS user_password_hash, user.created_at AS user_created_at, user.updated_at AS user_updated_at 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'admin@example.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2025-04-18 14:05:38,643 -  * Debugger is active!
+2025-04-18 14:05:38,647 -  * Debugger PIN: 395-506-349
+2025-04-18 14:05:38,690 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-18 14:05:51,847 - Error setting up sample data: (pymysql.err.ProgrammingError) (1146, "Table 'dbsaas.user' doesn't exist")
+[SQL: SELECT user.id AS user_id, user.email AS user_email, user.password_hash AS user_password_hash, user.created_at AS user_created_at, user.updated_at AS user_updated_at 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'admin@example.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2025-04-18 14:05:51,856 -  * Restarting with stat
+2025-04-18 14:05:52,719 - Error setting up sample data: (pymysql.err.ProgrammingError) (1146, "Table 'dbsaas.user' doesn't exist")
+[SQL: SELECT user.id AS user_id, user.email AS user_email, user.password_hash AS user_password_hash, user.created_at AS user_created_at, user.updated_at AS user_updated_at 
+FROM user 
+WHERE user.email = %(email_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'email_1': 'admin@example.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2025-04-18 14:05:52,726 -  * Debugger is active!
+2025-04-18 14:05:52,729 -  * Debugger PIN: 395-506-349
+2025-04-18 14:05:52,764 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-18 14:05:54,600 - 127.0.0.1 - - [18/Apr/2025 14:05:54] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 14:05:54,640 - 127.0.0.1 - - [18/Apr/2025 14:05:54] "GET /auth/login HTTP/1.1" 200 -
+2025-04-18 14:05:54,673 - 127.0.0.1 - - [18/Apr/2025 14:05:54] "[35m[1mGET /static/css/style.css HTTP/1.1[0m" 500 -
+2025-04-18 14:07:20,681 -  * Restarting with stat
+2025-04-18 14:07:21,432 -  * Debugger is active!
+2025-04-18 14:07:21,436 -  * Debugger PIN: 395-506-349
+2025-04-18 14:07:21,472 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-18 14:07:43,365 - 127.0.0.1 - - [18/Apr/2025 14:07:43] "GET /auth/register HTTP/1.1" 200 -
+2025-04-18 14:07:43,409 - 127.0.0.1 - - [18/Apr/2025 14:07:43] "[35m[1mGET /static/css/style.css HTTP/1.1[0m" 500 -
+2025-04-18 14:07:49,221 - 127.0.0.1 - - [18/Apr/2025 14:07:49] "POST /auth/register HTTP/1.1" 200 -
+2025-04-18 14:07:49,275 - 127.0.0.1 - - [18/Apr/2025 14:07:49] "[35m[1mGET /static/css/style.css HTTP/1.1[0m" 500 -
+2025-04-18 14:08:08,378 - User lamdnb27@gmail.com registered successfully.
+2025-04-18 14:08:08,380 - 127.0.0.1 - - [18/Apr/2025 14:08:08] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2025-04-18 14:08:08,387 - 127.0.0.1 - - [18/Apr/2025 14:08:08] "GET /auth/login HTTP/1.1" 200 -
+2025-04-18 14:08:08,445 - 127.0.0.1 - - [18/Apr/2025 14:08:08] "[35m[1mGET /static/css/style.css HTTP/1.1[0m" 500 -
+2025-04-18 14:08:20,380 - User lamdnb27@gmail.com logged in successfully.
+2025-04-18 14:08:20,391 - 127.0.0.1 - - [18/Apr/2025 14:08:20] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-04-18 14:08:20,506 - 127.0.0.1 - - [18/Apr/2025 14:08:20] "GET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-18 14:08:20,511 - 127.0.0.1 - - [18/Apr/2025 14:08:20] "GET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-18 14:08:20,523 - 127.0.0.1 - - [18/Apr/2025 14:08:20] "GET /auth/login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-04-18 14:08:20,526 - 127.0.0.1 - - [18/Apr/2025 14:08:20] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 14:08:20,539 - 127.0.0.1 - - [18/Apr/2025 14:08:20] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 14:08:57,821 -  * Detected change in 'D:\\BaOLaM\\CloudSaaS\\app\\views\\auth.py', reloading
+2025-04-18 14:08:57,927 -  * Restarting with stat
+2025-04-18 14:08:58,703 -  * Debugger is active!
+2025-04-18 14:08:58,706 -  * Debugger PIN: 395-506-349
+2025-04-18 14:08:58,738 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-18 14:09:27,463 - User lamdnb27@gmail.com logged in successfully.
+2025-04-18 14:09:27,465 - 127.0.0.1 - - [18/Apr/2025 14:09:27] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-04-18 14:09:27,472 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 14:09:27,487 - 127.0.0.1 - - [18/Apr/2025 14:09:27] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 14:09:27,523 - 127.0.0.1 - - [18/Apr/2025 14:09:27] "[35m[1mGET /static/css/style.css HTTP/1.1[0m" 500 -
+2025-04-18 14:09:33,810 - 127.0.0.1 - - [18/Apr/2025 14:09:33] "[35m[1mPOST /domains/delete HTTP/1.1[0m" 500 -
+2025-04-18 14:09:33,925 - 127.0.0.1 - - [18/Apr/2025 14:09:33] "GET /domains/delete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-18 14:09:33,926 - 127.0.0.1 - - [18/Apr/2025 14:09:33] "GET /domains/delete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-18 14:09:33,939 - 127.0.0.1 - - [18/Apr/2025 14:09:33] "GET /domains/delete?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-04-18 14:09:33,942 - 127.0.0.1 - - [18/Apr/2025 14:09:33] "GET /domains/delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 14:09:33,956 - 127.0.0.1 - - [18/Apr/2025 14:09:33] "GET /domains/delete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 14:09:39,322 - 127.0.0.1 - - [18/Apr/2025 14:09:39] "[35m[1mGET /domains/add HTTP/1.1[0m" 500 -
+2025-04-18 14:09:39,340 - 127.0.0.1 - - [18/Apr/2025 14:09:39] "GET /domains/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-18 14:09:39,340 - 127.0.0.1 - - [18/Apr/2025 14:09:39] "GET /domains/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-18 14:09:39,354 - 127.0.0.1 - - [18/Apr/2025 14:09:39] "GET /domains/add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-04-18 14:09:39,357 - 127.0.0.1 - - [18/Apr/2025 14:09:39] "GET /domains/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 14:10:54,550 - 127.0.0.1 - - [18/Apr/2025 14:10:54] "[35m[1mGET /logout HTTP/1.1[0m" 500 -
+2025-04-18 14:10:54,565 - 127.0.0.1 - - [18/Apr/2025 14:10:54] "GET /logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-18 14:10:54,565 - 127.0.0.1 - - [18/Apr/2025 14:10:54] "GET /logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-18 14:10:54,580 - 127.0.0.1 - - [18/Apr/2025 14:10:54] "GET /logout?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-04-18 14:10:54,584 - 127.0.0.1 - - [18/Apr/2025 14:10:54] "GET /logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 14:10:54,599 - 127.0.0.1 - - [18/Apr/2025 14:10:54] "GET /logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 15:41:14,986 - 127.0.0.1 - - [18/Apr/2025 15:41:14] "[35m[1mGET /domains/add HTTP/1.1[0m" 500 -
+2025-04-18 15:41:15,009 - 127.0.0.1 - - [18/Apr/2025 15:41:15] "GET /domains/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-18 15:41:15,010 - 127.0.0.1 - - [18/Apr/2025 15:41:15] "GET /domains/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-18 15:41:15,029 - 127.0.0.1 - - [18/Apr/2025 15:41:15] "GET /domains/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 15:41:15,070 - 127.0.0.1 - - [18/Apr/2025 15:41:15] "GET /domains/add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-04-18 15:41:22,144 - 127.0.0.1 - - [18/Apr/2025 15:41:22] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 15:41:22,151 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 15:41:22,155 - 127.0.0.1 - - [18/Apr/2025 15:41:22] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 15:41:22,216 - 127.0.0.1 - - [18/Apr/2025 15:41:22] "[35m[1mGET /static/css/style.css HTTP/1.1[0m" 500 -
+2025-04-18 15:41:31,196 - 127.0.0.1 - - [18/Apr/2025 15:41:31] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 15:41:31,200 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 15:41:31,203 - 127.0.0.1 - - [18/Apr/2025 15:41:31] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 15:41:31,251 - 127.0.0.1 - - [18/Apr/2025 15:41:31] "[35m[1mGET /static/css/style.css HTTP/1.1[0m" 500 -
+2025-04-18 15:41:33,250 - 127.0.0.1 - - [18/Apr/2025 15:41:33] "[35m[1mGET /logout HTTP/1.1[0m" 500 -
+2025-04-18 15:41:33,273 - 127.0.0.1 - - [18/Apr/2025 15:41:33] "GET /logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-18 15:41:33,273 - 127.0.0.1 - - [18/Apr/2025 15:41:33] "GET /logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-18 15:41:33,291 - 127.0.0.1 - - [18/Apr/2025 15:41:33] "GET /logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 15:41:33,305 - 127.0.0.1 - - [18/Apr/2025 15:41:33] "GET /logout?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-04-18 15:44:45,069 - 127.0.0.1 - - [18/Apr/2025 15:44:45] "[35m[1mGET /domains/add HTTP/1.1[0m" 500 -
+2025-04-18 15:44:45,091 - 127.0.0.1 - - [18/Apr/2025 15:44:45] "GET /domains/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-18 15:44:45,091 - 127.0.0.1 - - [18/Apr/2025 15:44:45] "GET /domains/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-18 15:44:45,116 - 127.0.0.1 - - [18/Apr/2025 15:44:45] "GET /domains/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 15:44:45,119 - 127.0.0.1 - - [18/Apr/2025 15:44:45] "GET /domains/add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-04-18 15:47:30,301 - 127.0.0.1 - - [18/Apr/2025 15:47:30] "[35m[1mGET /logout HTTP/1.1[0m" 500 -
+2025-04-18 15:47:30,330 - 127.0.0.1 - - [18/Apr/2025 15:47:30] "GET /logout?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-18 15:47:30,332 - 127.0.0.1 - - [18/Apr/2025 15:47:30] "GET /logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-18 15:47:30,343 - 127.0.0.1 - - [18/Apr/2025 15:47:30] "GET /logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-18 15:47:30,353 - 127.0.0.1 - - [18/Apr/2025 15:47:30] "GET /logout?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2025-04-18 15:49:17,257 - 127.0.0.1 - - [18/Apr/2025 15:49:17] "[33mGET /logout HTTP/1.1[0m" 404 -
+2025-04-18 15:49:21,106 - 127.0.0.1 - - [18/Apr/2025 15:49:21] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 15:49:21,113 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 15:49:21,122 - 127.0.0.1 - - [18/Apr/2025 15:49:21] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 15:49:21,138 - 127.0.0.1 - - [18/Apr/2025 15:49:21] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:49:23,841 - User logged out.
+2025-04-18 15:49:23,842 - 127.0.0.1 - - [18/Apr/2025 15:49:23] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2025-04-18 15:49:23,851 - 127.0.0.1 - - [18/Apr/2025 15:49:23] "GET /auth/login HTTP/1.1" 200 -
+2025-04-18 15:49:23,873 - 127.0.0.1 - - [18/Apr/2025 15:49:23] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:49:33,828 - Failed login attempt for email 1@gmail.
+2025-04-18 15:49:33,830 - 127.0.0.1 - - [18/Apr/2025 15:49:33] "POST /auth/login HTTP/1.1" 200 -
+2025-04-18 15:49:33,848 - 127.0.0.1 - - [18/Apr/2025 15:49:33] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:49:40,391 - User lamdnb27@gmail.com logged in successfully.
+2025-04-18 15:49:40,393 - 127.0.0.1 - - [18/Apr/2025 15:49:40] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-04-18 15:49:40,398 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 15:49:40,401 - 127.0.0.1 - - [18/Apr/2025 15:49:40] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 15:49:40,421 - 127.0.0.1 - - [18/Apr/2025 15:49:40] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:49:48,978 - 127.0.0.1 - - [18/Apr/2025 15:49:48] "[33mGET /domains/add HTTP/1.1[0m" 404 -
+2025-04-18 15:49:52,697 - User logged out.
+2025-04-18 15:49:52,698 - 127.0.0.1 - - [18/Apr/2025 15:49:52] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2025-04-18 15:49:52,703 - 127.0.0.1 - - [18/Apr/2025 15:49:52] "GET /auth/login HTTP/1.1" 200 -
+2025-04-18 15:49:52,727 - 127.0.0.1 - - [18/Apr/2025 15:49:52] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:49:57,601 - 127.0.0.1 - - [18/Apr/2025 15:49:57] "[33mGET /domains/add HTTP/1.1[0m" 404 -
+2025-04-18 15:51:40,601 - 127.0.0.1 - - [18/Apr/2025 15:51:40] "[33mGET /domains/add HTTP/1.1[0m" 404 -
+2025-04-18 15:51:41,315 - 127.0.0.1 - - [18/Apr/2025 15:51:41] "[33mGET /domains/add HTTP/1.1[0m" 404 -
+2025-04-18 15:51:41,702 - 127.0.0.1 - - [18/Apr/2025 15:51:41] "[33mGET /domains/add HTTP/1.1[0m" 404 -
+2025-04-18 15:51:45,792 - 127.0.0.1 - - [18/Apr/2025 15:51:45] "[33mGET /domains/add HTTP/1.1[0m" 404 -
+2025-04-18 15:51:51,773 - 127.0.0.1 - - [18/Apr/2025 15:51:51] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2025-04-18 15:51:51,783 - 127.0.0.1 - - [18/Apr/2025 15:51:51] "GET /auth/login?next=%2Fdashboard%2F HTTP/1.1" 200 -
+2025-04-18 15:51:51,801 - 127.0.0.1 - - [18/Apr/2025 15:51:51] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:51:56,126 - 127.0.0.1 - - [18/Apr/2025 15:51:56] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2025-04-18 15:51:56,130 - 127.0.0.1 - - [18/Apr/2025 15:51:56] "GET /auth/login?next=%2Fdashboard%2F HTTP/1.1" 200 -
+2025-04-18 15:51:56,153 - 127.0.0.1 - - [18/Apr/2025 15:51:56] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:51:57,086 - 127.0.0.1 - - [18/Apr/2025 15:51:57] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 15:51:57,093 - 127.0.0.1 - - [18/Apr/2025 15:51:57] "GET /auth/login HTTP/1.1" 200 -
+2025-04-18 15:51:57,114 - 127.0.0.1 - - [18/Apr/2025 15:51:57] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:51:58,517 - 127.0.0.1 - - [18/Apr/2025 15:51:58] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2025-04-18 15:51:58,521 - 127.0.0.1 - - [18/Apr/2025 15:51:58] "GET /auth/login?next=%2Fdashboard%2F HTTP/1.1" 200 -
+2025-04-18 15:51:58,542 - 127.0.0.1 - - [18/Apr/2025 15:51:58] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:52:01,684 - 127.0.0.1 - - [18/Apr/2025 15:52:01] "[32mGET /domains/add-domain HTTP/1.1[0m" 302 -
+2025-04-18 15:52:01,691 - 127.0.0.1 - - [18/Apr/2025 15:52:01] "GET /auth/login?next=%2Fdomains%2Fadd-domain HTTP/1.1" 200 -
+2025-04-18 15:52:01,710 - 127.0.0.1 - - [18/Apr/2025 15:52:01] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:52:04,783 - 127.0.0.1 - - [18/Apr/2025 15:52:04] "[32mGET /domains/add-domain HTTP/1.1[0m" 302 -
+2025-04-18 15:52:04,791 - 127.0.0.1 - - [18/Apr/2025 15:52:04] "GET /auth/login?next=%2Fdomains%2Fadd-domain HTTP/1.1" 200 -
+2025-04-18 15:52:04,809 - 127.0.0.1 - - [18/Apr/2025 15:52:04] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:52:13,116 - User lamdnb27@gmail.com logged in successfully.
+2025-04-18 15:52:13,118 - 127.0.0.1 - - [18/Apr/2025 15:52:13] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-04-18 15:52:13,123 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 15:52:13,126 - 127.0.0.1 - - [18/Apr/2025 15:52:13] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 15:52:13,151 - 127.0.0.1 - - [18/Apr/2025 15:52:13] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:52:20,330 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 15:52:20,333 - 127.0.0.1 - - [18/Apr/2025 15:52:20] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 15:52:20,356 - 127.0.0.1 - - [18/Apr/2025 15:52:20] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:52:23,011 - 127.0.0.1 - - [18/Apr/2025 15:52:23] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 15:52:23,019 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 15:52:23,023 - 127.0.0.1 - - [18/Apr/2025 15:52:23] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 15:52:23,052 - 127.0.0.1 - - [18/Apr/2025 15:52:23] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:52:24,447 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 15:52:24,449 - 127.0.0.1 - - [18/Apr/2025 15:52:24] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 15:52:24,471 - 127.0.0.1 - - [18/Apr/2025 15:52:24] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:52:25,449 - 127.0.0.1 - - [18/Apr/2025 15:52:25] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 15:52:25,455 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 15:52:25,458 - 127.0.0.1 - - [18/Apr/2025 15:52:25] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 15:52:25,476 - 127.0.0.1 - - [18/Apr/2025 15:52:25] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:52:26,140 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 15:52:26,142 - 127.0.0.1 - - [18/Apr/2025 15:52:26] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 15:52:26,168 - 127.0.0.1 - - [18/Apr/2025 15:52:26] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:52:26,916 - 127.0.0.1 - - [18/Apr/2025 15:52:26] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 15:52:26,923 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 15:52:26,925 - 127.0.0.1 - - [18/Apr/2025 15:52:26] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 15:52:26,943 - 127.0.0.1 - - [18/Apr/2025 15:52:26] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:52:30,250 - 127.0.0.1 - - [18/Apr/2025 15:52:30] "GET /domains/add-domain HTTP/1.1" 200 -
+2025-04-18 15:52:34,571 - 127.0.0.1 - - [18/Apr/2025 15:52:34] "GET /domains/add-domain HTTP/1.1" 200 -
+2025-04-18 15:52:43,032 - 127.0.0.1 - - [18/Apr/2025 15:52:43] "GET /domains/add-domain HTTP/1.1" 200 -
+2025-04-18 15:53:02,454 - 127.0.0.1 - - [18/Apr/2025 15:53:02] "[33mPOST /domains/add HTTP/1.1[0m" 404 -
+2025-04-18 15:53:05,505 - 127.0.0.1 - - [18/Apr/2025 15:53:05] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 15:53:05,512 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 15:53:05,520 - 127.0.0.1 - - [18/Apr/2025 15:53:05] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 15:53:05,538 - 127.0.0.1 - - [18/Apr/2025 15:53:05] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:53:08,354 - 127.0.0.1 - - [18/Apr/2025 15:53:08] "GET /domains/add-domain HTTP/1.1" 200 -
+2025-04-18 15:54:46,490 - 127.0.0.1 - - [18/Apr/2025 15:54:46] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 15:54:46,496 - 127.0.0.1 - - [18/Apr/2025 15:54:46] "GET /auth/login HTTP/1.1" 200 -
+2025-04-18 15:54:46,519 - 127.0.0.1 - - [18/Apr/2025 15:54:46] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:54:54,689 - User lamdnb27@gmail.com logged in successfully.
+2025-04-18 15:54:54,690 - 127.0.0.1 - - [18/Apr/2025 15:54:54] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-04-18 15:54:54,695 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 15:54:54,698 - 127.0.0.1 - - [18/Apr/2025 15:54:54] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 15:54:54,721 - 127.0.0.1 - - [18/Apr/2025 15:54:54] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:54:59,259 - 127.0.0.1 - - [18/Apr/2025 15:54:59] "[32mGET /dashboard HTTP/1.1[0m" 308 -
+2025-04-18 15:54:59,264 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 15:54:59,266 - 127.0.0.1 - - [18/Apr/2025 15:54:59] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 15:54:59,280 - 127.0.0.1 - - [18/Apr/2025 15:54:59] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:55:00,627 - 127.0.0.1 - - [18/Apr/2025 15:55:00] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 15:55:00,632 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 15:55:00,635 - 127.0.0.1 - - [18/Apr/2025 15:55:00] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 15:55:00,648 - 127.0.0.1 - - [18/Apr/2025 15:55:00] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:55:01,379 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 15:55:01,382 - 127.0.0.1 - - [18/Apr/2025 15:55:01] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 15:55:01,396 - 127.0.0.1 - - [18/Apr/2025 15:55:01] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:55:05,237 - 127.0.0.1 - - [18/Apr/2025 15:55:05] "GET /domains/add-domain HTTP/1.1" 200 -
+2025-04-18 15:55:17,278 - 127.0.0.1 - - [18/Apr/2025 15:55:17] "[33mPOST /domains/add HTTP/1.1[0m" 404 -
+2025-04-18 15:55:20,209 - 127.0.0.1 - - [18/Apr/2025 15:55:20] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 15:55:20,214 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 15:55:20,217 - 127.0.0.1 - - [18/Apr/2025 15:55:20] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 15:55:20,229 - 127.0.0.1 - - [18/Apr/2025 15:55:20] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 15:55:22,332 - 127.0.0.1 - - [18/Apr/2025 15:55:22] "GET /domains/add-domain HTTP/1.1" 200 -
+2025-04-18 16:02:53,438 - 127.0.0.1 - - [18/Apr/2025 16:02:53] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 16:02:53,443 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:02:53,452 - 127.0.0.1 - - [18/Apr/2025 16:02:53] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:02:53,472 - 127.0.0.1 - - [18/Apr/2025 16:02:53] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:02:55,584 - 127.0.0.1 - - [18/Apr/2025 16:02:55] "GET /domains/add-domain HTTP/1.1" 200 -
+2025-04-18 16:03:06,136 - 127.0.0.1 - - [18/Apr/2025 16:03:06] "[33mPOST /domains/add HTTP/1.1[0m" 404 -
+2025-04-18 16:04:20,579 - 127.0.0.1 - - [18/Apr/2025 16:04:20] "[33mPOST /domains/add HTTP/1.1[0m" 404 -
+2025-04-18 16:04:24,628 - 127.0.0.1 - - [18/Apr/2025 16:04:24] "[33mPOST /domains/add HTTP/1.1[0m" 404 -
+2025-04-18 16:05:41,057 - 127.0.0.1 - - [18/Apr/2025 16:05:41] "[33mGET /domains HTTP/1.1[0m" 404 -
+2025-04-18 16:05:46,495 - 127.0.0.1 - - [18/Apr/2025 16:05:46] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 16:05:46,500 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:05:46,509 - 127.0.0.1 - - [18/Apr/2025 16:05:46] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:05:46,523 - 127.0.0.1 - - [18/Apr/2025 16:05:46] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:05:48,622 - 127.0.0.1 - - [18/Apr/2025 16:05:48] "GET /domains/add-domain HTTP/1.1" 200 -
+2025-04-18 16:05:59,687 - User lamdnb27@gmail.com is attempting to add domain abc.com with backend IP 192.167.2.2.
+2025-04-18 16:05:59,710 - Domain abc.com thêm thành công b\u1edfi lamdnb27@gmail.com.
+2025-04-18 16:05:59,713 - 127.0.0.1 - - [18/Apr/2025 16:05:59] "[32mPOST /domains/add-domain HTTP/1.1[0m" 302 -
+2025-04-18 16:05:59,718 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:05:59,720 - 127.0.0.1 - - [18/Apr/2025 16:05:59] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:05:59,745 - 127.0.0.1 - - [18/Apr/2025 16:05:59] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:06:23,085 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:06:23,088 - 127.0.0.1 - - [18/Apr/2025 16:06:23] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:06:23,104 - 127.0.0.1 - - [18/Apr/2025 16:06:23] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:06:24,683 - 127.0.0.1 - - [18/Apr/2025 16:06:24] "GET /domains/add-domain HTTP/1.1" 200 -
+2025-04-18 16:06:38,361 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:06:38,363 - 127.0.0.1 - - [18/Apr/2025 16:06:38] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:06:38,378 - 127.0.0.1 - - [18/Apr/2025 16:06:38] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:06:39,213 - 127.0.0.1 - - [18/Apr/2025 16:06:39] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 16:06:39,218 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:06:39,220 - 127.0.0.1 - - [18/Apr/2025 16:06:39] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:06:39,234 - 127.0.0.1 - - [18/Apr/2025 16:06:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:06:40,029 - 127.0.0.1 - - [18/Apr/2025 16:06:40] "GET /domains/add-domain HTTP/1.1" 200 -
+2025-04-18 16:06:53,373 - User lamdnb27@gmail.com is attempting to add domain abd.com with backend IP 12.23.33.44.
+2025-04-18 16:06:53,387 - Domain abd.com thêm thành công b\u1edfi lamdnb27@gmail.com.
+2025-04-18 16:06:53,389 - 127.0.0.1 - - [18/Apr/2025 16:06:53] "[32mPOST /domains/add-domain HTTP/1.1[0m" 302 -
+2025-04-18 16:06:53,394 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:06:53,396 - 127.0.0.1 - - [18/Apr/2025 16:06:53] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:06:53,420 - 127.0.0.1 - - [18/Apr/2025 16:06:53] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:07:01,778 - 127.0.0.1 - - [18/Apr/2025 16:07:01] "[33mPOST /domains/delete HTTP/1.1[0m" 404 -
+2025-04-18 16:07:24,895 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:07:24,898 - 127.0.0.1 - - [18/Apr/2025 16:07:24] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:07:24,917 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:07:24,920 - 127.0.0.1 - - [18/Apr/2025 16:07:24] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:07:24,940 - 127.0.0.1 - - [18/Apr/2025 16:07:24] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:07:26,595 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:07:26,597 - 127.0.0.1 - - [18/Apr/2025 16:07:26] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:07:26,615 - 127.0.0.1 - - [18/Apr/2025 16:07:26] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:07:27,458 - 127.0.0.1 - - [18/Apr/2025 16:07:27] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 16:07:27,463 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:07:27,465 - 127.0.0.1 - - [18/Apr/2025 16:07:27] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:07:27,479 - 127.0.0.1 - - [18/Apr/2025 16:07:27] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:07:28,722 - 127.0.0.1 - - [18/Apr/2025 16:07:28] "GET /domains/add-domain HTTP/1.1" 200 -
+2025-04-18 16:07:40,320 - User lamdnb27@gmail.com is attempting to add domain chiken.com with backend IP 192.168.2.3.
+2025-04-18 16:07:40,334 - Domain chiken.com thêm thành công b\u1edfi lamdnb27@gmail.com.
+2025-04-18 16:07:40,336 - 127.0.0.1 - - [18/Apr/2025 16:07:40] "[32mPOST /domains/add-domain HTTP/1.1[0m" 302 -
+2025-04-18 16:07:40,341 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:07:40,343 - 127.0.0.1 - - [18/Apr/2025 16:07:40] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:07:40,368 - 127.0.0.1 - - [18/Apr/2025 16:07:40] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:07:43,557 - 127.0.0.1 - - [18/Apr/2025 16:07:43] "[33mPOST /domains/delete HTTP/1.1[0m" 404 -
+2025-04-18 16:07:52,212 - 127.0.0.1 - - [18/Apr/2025 16:07:52] "[33mPOST /domains/delete HTTP/1.1[0m" 404 -
+2025-04-18 16:09:17,169 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:09:17,171 - 127.0.0.1 - - [18/Apr/2025 16:09:17] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:09:17,187 - 127.0.0.1 - - [18/Apr/2025 16:09:17] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:09:18,989 - 127.0.0.1 - - [18/Apr/2025 16:09:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 16:09:18,994 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:09:18,997 - 127.0.0.1 - - [18/Apr/2025 16:09:18] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:09:19,011 - 127.0.0.1 - - [18/Apr/2025 16:09:19] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:09:20,307 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:09:20,309 - 127.0.0.1 - - [18/Apr/2025 16:09:20] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:09:20,324 - 127.0.0.1 - - [18/Apr/2025 16:09:20] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:09:21,160 - 127.0.0.1 - - [18/Apr/2025 16:09:21] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 16:09:21,165 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:09:21,167 - 127.0.0.1 - - [18/Apr/2025 16:09:21] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:09:21,183 - 127.0.0.1 - - [18/Apr/2025 16:09:21] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:09:21,918 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:09:21,921 - 127.0.0.1 - - [18/Apr/2025 16:09:21] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:09:21,935 - 127.0.0.1 - - [18/Apr/2025 16:09:21] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:09:22,577 - 127.0.0.1 - - [18/Apr/2025 16:09:22] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 16:09:22,582 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:09:22,584 - 127.0.0.1 - - [18/Apr/2025 16:09:22] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:09:22,599 - 127.0.0.1 - - [18/Apr/2025 16:09:22] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:09:25,391 - User logged out.
+2025-04-18 16:09:25,393 - 127.0.0.1 - - [18/Apr/2025 16:09:25] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2025-04-18 16:09:25,397 - 127.0.0.1 - - [18/Apr/2025 16:09:25] "GET /auth/login HTTP/1.1" 200 -
+2025-04-18 16:09:25,413 - 127.0.0.1 - - [18/Apr/2025 16:09:25] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:09:32,845 - Failed login attempt for email lamdnb27@gmail.com.
+2025-04-18 16:09:32,846 - 127.0.0.1 - - [18/Apr/2025 16:09:32] "POST /auth/login HTTP/1.1" 200 -
+2025-04-18 16:09:32,859 - 127.0.0.1 - - [18/Apr/2025 16:09:32] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:09:41,765 - User lamdnb27@gmail.com logged in successfully.
+2025-04-18 16:09:41,767 - 127.0.0.1 - - [18/Apr/2025 16:09:41] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-04-18 16:09:41,772 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:09:41,775 - 127.0.0.1 - - [18/Apr/2025 16:09:41] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:09:41,794 - 127.0.0.1 - - [18/Apr/2025 16:09:41] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:09:44,863 - 127.0.0.1 - - [18/Apr/2025 16:09:44] "[33mPOST /domains/delete HTTP/1.1[0m" 404 -
+2025-04-18 16:12:20,128 -  * Detected change in 'D:\\BaOLaM\\CloudSaaS\\app\\views\\domains.py', reloading
+2025-04-18 16:12:20,370 -  * Restarting with stat
+2025-04-18 16:12:21,307 -  * Debugger is active!
+2025-04-18 16:12:21,312 -  * Debugger PIN: 395-506-349
+2025-04-18 16:12:21,354 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-18 16:12:21,668 - 127.0.0.1 - - [18/Apr/2025 16:12:21] "[32mPOST /domains/delete HTTP/1.1[0m" 302 -
+2025-04-18 16:12:21,673 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:12:21,690 - 127.0.0.1 - - [18/Apr/2025 16:12:21] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:12:21,707 - 127.0.0.1 - - [18/Apr/2025 16:12:21] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:12:39,992 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:12:39,995 - 127.0.0.1 - - [18/Apr/2025 16:12:39] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:12:40,011 - 127.0.0.1 - - [18/Apr/2025 16:12:40] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:12:42,252 - 127.0.0.1 - - [18/Apr/2025 16:12:42] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 16:12:42,256 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:12:42,259 - 127.0.0.1 - - [18/Apr/2025 16:12:42] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:12:42,275 - 127.0.0.1 - - [18/Apr/2025 16:12:42] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:12:43,067 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:12:43,069 - 127.0.0.1 - - [18/Apr/2025 16:12:43] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:12:43,083 - 127.0.0.1 - - [18/Apr/2025 16:12:43] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:12:49,128 - 127.0.0.1 - - [18/Apr/2025 16:12:49] "GET /domains/add-domain HTTP/1.1" 200 -
+2025-04-18 16:14:29,006 -  * Restarting with stat
+2025-04-18 16:14:30,059 -  * Debugger is active!
+2025-04-18 16:14:30,064 -  * Debugger PIN: 395-506-349
+2025-04-18 16:14:30,112 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-18 16:14:43,999 - 127.0.0.1 - - [18/Apr/2025 16:14:43] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 16:14:44,005 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:14:44,023 - 127.0.0.1 - - [18/Apr/2025 16:14:44] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:14:44,042 - 127.0.0.1 - - [18/Apr/2025 16:14:44] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:14:49,311 - User logged out.
+2025-04-18 16:14:49,313 - 127.0.0.1 - - [18/Apr/2025 16:14:49] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2025-04-18 16:14:49,321 - 127.0.0.1 - - [18/Apr/2025 16:14:49] "GET /auth/login HTTP/1.1" 200 -
+2025-04-18 16:14:49,339 - 127.0.0.1 - - [18/Apr/2025 16:14:49] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:14:57,642 - User lamdnb27@gmail.com logged in successfully.
+2025-04-18 16:14:57,644 - 127.0.0.1 - - [18/Apr/2025 16:14:57] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-04-18 16:14:57,650 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:14:57,654 - 127.0.0.1 - - [18/Apr/2025 16:14:57] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:14:57,682 - 127.0.0.1 - - [18/Apr/2025 16:14:57] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:15:23,336 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:15:23,339 - 127.0.0.1 - - [18/Apr/2025 16:15:23] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:15:23,357 - 127.0.0.1 - - [18/Apr/2025 16:15:23] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:15:29,540 - 127.0.0.1 - - [18/Apr/2025 16:15:29] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 16:15:29,545 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:15:29,547 - 127.0.0.1 - - [18/Apr/2025 16:15:29] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:15:29,564 - 127.0.0.1 - - [18/Apr/2025 16:15:29] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:15:30,624 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:15:30,627 - 127.0.0.1 - - [18/Apr/2025 16:15:30] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:15:30,641 - 127.0.0.1 - - [18/Apr/2025 16:15:30] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:15:31,287 - 127.0.0.1 - - [18/Apr/2025 16:15:31] "GET /domains/add-domain HTTP/1.1" 200 -
+2025-04-18 16:15:38,371 - User lamdnb27@gmail.com is attempting to add domain abc.com with backend IP 1.1.1.1.
+2025-04-18 16:15:38,390 - Domain abc.com thêm thành công b\u1edfi lamdnb27@gmail.com.
+2025-04-18 16:15:38,392 - 127.0.0.1 - - [18/Apr/2025 16:15:38] "[32mPOST /domains/add-domain HTTP/1.1[0m" 302 -
+2025-04-18 16:15:38,397 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:15:38,399 - 127.0.0.1 - - [18/Apr/2025 16:15:38] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:15:38,426 - 127.0.0.1 - - [18/Apr/2025 16:15:38] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:15:44,898 - 127.0.0.1 - - [18/Apr/2025 16:15:44] "[32mPOST /domains/delete HTTP/1.1[0m" 302 -
+2025-04-18 16:15:44,903 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:15:44,906 - 127.0.0.1 - - [18/Apr/2025 16:15:44] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:15:44,922 - 127.0.0.1 - - [18/Apr/2025 16:15:44] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:15:46,160 - 127.0.0.1 - - [18/Apr/2025 16:15:46] "[32mPOST /domains/delete HTTP/1.1[0m" 302 -
+2025-04-18 16:15:46,165 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:15:46,167 - 127.0.0.1 - - [18/Apr/2025 16:15:46] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:15:46,200 - 127.0.0.1 - - [18/Apr/2025 16:15:46] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:15:47,231 - 127.0.0.1 - - [18/Apr/2025 16:15:47] "[32mPOST /domains/delete HTTP/1.1[0m" 302 -
+2025-04-18 16:15:47,235 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:15:47,238 - 127.0.0.1 - - [18/Apr/2025 16:15:47] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:15:47,254 - 127.0.0.1 - - [18/Apr/2025 16:15:47] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:15:49,554 - 127.0.0.1 - - [18/Apr/2025 16:15:49] "[32mPOST /domains/delete HTTP/1.1[0m" 302 -
+2025-04-18 16:15:49,559 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:15:49,561 - 127.0.0.1 - - [18/Apr/2025 16:15:49] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:15:49,578 - 127.0.0.1 - - [18/Apr/2025 16:15:49] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:15:50,754 - 127.0.0.1 - - [18/Apr/2025 16:15:50] "[32mPOST /domains/delete HTTP/1.1[0m" 302 -
+2025-04-18 16:15:50,759 - User lamdnb27@gmail.com accessed the dashboard.
+2025-04-18 16:15:50,762 - 127.0.0.1 - - [18/Apr/2025 16:15:50] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:15:50,777 - 127.0.0.1 - - [18/Apr/2025 16:15:50] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:16:04,040 - User logged out.
+2025-04-18 16:16:04,041 - 127.0.0.1 - - [18/Apr/2025 16:16:04] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2025-04-18 16:16:04,046 - 127.0.0.1 - - [18/Apr/2025 16:16:04] "GET /auth/login HTTP/1.1" 200 -
+2025-04-18 16:16:04,092 - 127.0.0.1 - - [18/Apr/2025 16:16:04] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:16:13,450 - User admin@example.com logged in successfully.
+2025-04-18 16:16:13,451 - 127.0.0.1 - - [18/Apr/2025 16:16:13] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-04-18 16:16:13,456 - User admin@example.com accessed the dashboard.
+2025-04-18 16:16:13,459 - 127.0.0.1 - - [18/Apr/2025 16:16:13] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:16:13,482 - 127.0.0.1 - - [18/Apr/2025 16:16:13] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:16:16,729 - 127.0.0.1 - - [18/Apr/2025 16:16:16] "[32mPOST /domains/delete HTTP/1.1[0m" 302 -
+2025-04-18 16:16:16,734 - User admin@example.com accessed the dashboard.
+2025-04-18 16:16:16,737 - 127.0.0.1 - - [18/Apr/2025 16:16:16] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:16:16,754 - 127.0.0.1 - - [18/Apr/2025 16:16:16] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:16:27,006 -  * Restarting with stat
+2025-04-18 16:16:27,853 -  * Debugger is active!
+2025-04-18 16:16:27,857 -  * Debugger PIN: 395-506-349
+2025-04-18 16:16:27,897 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-04-18 16:17:59,495 - User logged out.
+2025-04-18 16:17:59,498 - 127.0.0.1 - - [18/Apr/2025 16:17:59] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2025-04-18 16:17:59,517 - 127.0.0.1 - - [18/Apr/2025 16:17:59] "GET /auth/login HTTP/1.1" 200 -
+2025-04-18 16:17:59,519 - 127.0.0.1 - - [18/Apr/2025 16:17:59] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2025-04-18 16:17:59,524 - 127.0.0.1 - - [18/Apr/2025 16:17:59] "GET /auth/login?next=%2Fauth%2Flogout HTTP/1.1" 200 -
+2025-04-18 16:17:59,547 - 127.0.0.1 - - [18/Apr/2025 16:17:59] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:18:02,533 - 127.0.0.1 - - [18/Apr/2025 16:18:02] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2025-04-18 16:18:02,538 - 127.0.0.1 - - [18/Apr/2025 16:18:02] "GET /auth/login?next=%2Fdashboard%2F HTTP/1.1" 200 -
+2025-04-18 16:18:02,558 - 127.0.0.1 - - [18/Apr/2025 16:18:02] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:18:03,313 - 127.0.0.1 - - [18/Apr/2025 16:18:03] "[32mGET /domains/add-domain HTTP/1.1[0m" 302 -
+2025-04-18 16:18:03,318 - 127.0.0.1 - - [18/Apr/2025 16:18:03] "GET /auth/login?next=%2Fdomains%2Fadd-domain HTTP/1.1" 200 -
+2025-04-18 16:18:03,334 - 127.0.0.1 - - [18/Apr/2025 16:18:03] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:18:04,185 - 127.0.0.1 - - [18/Apr/2025 16:18:04] "[32mGET / HTTP/1.1[0m" 302 -
+2025-04-18 16:18:04,191 - 127.0.0.1 - - [18/Apr/2025 16:18:04] "GET /auth/login HTTP/1.1" 200 -
+2025-04-18 16:18:04,209 - 127.0.0.1 - - [18/Apr/2025 16:18:04] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:18:06,101 - 127.0.0.1 - - [18/Apr/2025 16:18:06] "[32mGET /dashboard/ HTTP/1.1[0m" 302 -
+2025-04-18 16:18:06,106 - 127.0.0.1 - - [18/Apr/2025 16:18:06] "GET /auth/login?next=%2Fdashboard%2F HTTP/1.1" 200 -
+2025-04-18 16:18:06,122 - 127.0.0.1 - - [18/Apr/2025 16:18:06] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:18:08,910 - 127.0.0.1 - - [18/Apr/2025 16:18:08] "GET /auth/register HTTP/1.1" 200 -
+2025-04-18 16:18:08,930 - 127.0.0.1 - - [18/Apr/2025 16:18:08] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:18:23,735 - User baolam@gmail.com registered successfully.
+2025-04-18 16:18:23,736 - 127.0.0.1 - - [18/Apr/2025 16:18:23] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2025-04-18 16:18:23,741 - 127.0.0.1 - - [18/Apr/2025 16:18:23] "GET /auth/login HTTP/1.1" 200 -
+2025-04-18 16:18:23,763 - 127.0.0.1 - - [18/Apr/2025 16:18:23] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:18:32,432 - User baolam@gmail.com logged in successfully.
+2025-04-18 16:18:32,434 - 127.0.0.1 - - [18/Apr/2025 16:18:32] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-04-18 16:18:32,440 - User baolam@gmail.com accessed the dashboard.
+2025-04-18 16:18:32,453 - 127.0.0.1 - - [18/Apr/2025 16:18:32] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:18:32,482 - 127.0.0.1 - - [18/Apr/2025 16:18:32] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-18 16:18:37,025 - 127.0.0.1 - - [18/Apr/2025 16:18:37] "GET /domains/add-domain HTTP/1.1" 200 -
+2025-04-18 16:18:44,408 - User baolam@gmail.com is attempting to add domain abc.com with backend IP 123.123.132.33.
+2025-04-18 16:18:44,425 - Domain abc.com thêm thành công b\u1edfi baolam@gmail.com.
+2025-04-18 16:18:44,427 - 127.0.0.1 - - [18/Apr/2025 16:18:44] "[32mPOST /domains/add-domain HTTP/1.1[0m" 302 -
+2025-04-18 16:18:44,433 - User baolam@gmail.com accessed the dashboard.
+2025-04-18 16:18:44,437 - 127.0.0.1 - - [18/Apr/2025 16:18:44] "GET /dashboard/ HTTP/1.1" 200 -
+2025-04-18 16:18:44,467 - 127.0.0.1 - - [18/Apr/2025 16:18:44] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -

@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<h1>Chào mừng, {{ user.email }}</h1>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        <div class="flash-messages">
+            {% for category, message in messages %}
+                <div class="alert alert-{{ category }}">{{ message }}</div>
+            {% endfor %}
+        </div>
+    {% endif %}
+{% endwith %}
+
+<h2>Danh sách các Domain:</h2>
+<ul class="domain-list">
+    {% if user.domains %}
+        {% for domain in user.domains %}
+            <li class="domain-item">
+                {{ domain.domain_name }} - {{ domain.backend_ip }}
+                <form action="/domains/delete" method="POST" style="display:inline;">
+                    <input type="hidden" name="domain_id" value="{{ domain.id }}">
+                    <button type="submit">Xóa</button>
+                </form>
+            </li>
+        {% endfor %}
+    {% else %}
+        <p>Hiện tại bạn chưa có domain nào.</p>
+    {% endif %}
+</ul>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    ul.domain-list {
+        list-style-type: none;
+        padding: 0;
+    }
+    ul.domain-list li {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+    .flash-messages {
+        margin: 10px 0;
+    }
+    .alert {
+        padding: 10px;
+        border: 1px solid #ccc;
+        background-color: #f8f9fa;
+    }
+    .alert-success {
+        border-color: #28a745;
+        color: #155724;
+    }
+    .alert-danger {
+        border-color: #dc3545;
+        color: #721c24;
+    }
+</style>
+{% endblock %}
