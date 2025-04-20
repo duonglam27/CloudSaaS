@@ -14,7 +14,7 @@ class Config:
 
     # Cấu hình Flask
     SECRET_KEY = os.getenv('SECRET_KEY', 'your-default-secret-key')  # Lấy từ biến môi trường
-    SESSION_COOKIE_SECURE = True  # Bảo mật cookie
+    SESSION_COOKIE_SECURE = True  # Bảo mật cookie # để false khi deloy
     SESSION_COOKIE_HTTPONLY = True  # Chỉ cho phép cookie được sử dụng bởi HTTP
     SESSION_COOKIE_SAMESITE = 'Lax'  # Chống tấn công CSRF
 

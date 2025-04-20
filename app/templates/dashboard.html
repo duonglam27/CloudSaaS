@@ -1,6 +1,99 @@
 {% extends "base.html" %}
 {% block title %}Dashboard{% endblock %}
+
 {% block content %}
+<style>
+    body {
+        background-color: #f8f9fa;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 22px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        color: #444;
+    }
+
+    .flash-messages {
+        margin-bottom: 20px;
+    }
+
+    .alert {
+        padding: 12px 20px;
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+
+    .alert-success {
+        background-color: #d4edda;
+        color: #155724;
+    }
+
+    .alert-danger {
+        background-color: #f8d7da;
+        color: #721c24;
+    }
+
+    .alert-warning {
+        background-color: #fff3cd;
+        color: #856404;
+    }
+
+    .domain-list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .domain-item {
+        background-color: #ffffff;
+        padding: 15px 20px;
+        margin-bottom: 12px;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: box-shadow 0.2s;
+    }
+
+    .domain-item:hover {
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border: none;
+        color: white;
+        padding: 6px 12px;
+        font-size: 14px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+    .btn-danger:hover {
+        background-color: #c82333;
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+
 <h1>Chào mừng, {{ user.email }}</h1>
 
 {% with messages = get_flashed_messages(with_categories=true) %}
@@ -15,52 +108,21 @@
 
 <h2>Danh sách các Domain:</h2>
 <ul class="domain-list">
-    {% if user.domains %}
-        {% for domain in user.domains %}
+    {% if domains %}
+        {% for domain in domains %}
             <li class="domain-item">
-                {{ domain.domain_name }} - {{ domain.backend_ip }}
-                <form action="/domains/delete" method="POST" style="display:inline;">
-                    <input type="hidden" name="domain_id" value="{{ domain.id }}">
-                    <button type="submit">Xóa</button>
+                <div>
+                    <strong>{{ domain.domain_name }}</strong> – {{ domain.backend_ip }}
+                </div>
+                <form action="{{ url_for('domains.delete_domain', domain_id=domain.id) }}" method="POST" style="margin: 0;">
+                    <button type="submit" class="btn btn-danger btn-sm">Xóa</button>
                 </form>
+                <a href="{{ url_for('dashboard.view_logs', domain_id=domain.id) }}" class="btn btn-info btn-sm">Xem Log</a>
             </li>
         {% endfor %}
     {% else %}
-        <p>Hiện tại bạn chưa có domain nào.</p>
+        <p>Hiện tại bạn chưa có domain nào. <a href="{{ url_for('domains.add_domain') }}">Thêm domain mới</a>.</p>
     {% endif %}
 </ul>
 
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 20px;
-    }
-    ul.domain-list {
-        list-style-type: none;
-        padding: 0;
-    }
-    ul.domain-list li {
-        margin-bottom: 10px;
-        padding: 10px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        background-color: #f9f9f9;
-    }
-    .flash-messages {
-        margin: 10px 0;
-    }
-    .alert {
-        padding: 10px;
-        border: 1px solid #ccc;
-        background-color: #f8f9fa;
-    }
-    .alert-success {
-        border-color: #28a745;
-        color: #155724;
-    }
-    .alert-danger {
-        border-color: #dc3545;
-        color: #721c24;
-    }
-</style>
 {% endblock %}

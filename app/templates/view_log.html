@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}Xem Log - {{ domain.domain_name }}{% endblock %}
+
+{% block content %}
+    <h1>Log Files cho Domain: {{ domain.domain_name }}</h1>
+
+    <h2>Access Log</h2>
+    <div style="background-color: #f1f1f1; padding: 20px; white-space: pre-wrap; max-height: 400px; overflow-y: auto;">
+        <table border="1">
+        <thead>
+            <tr>
+                <th>Log Text</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for log in access_log %}
+            <tr>
+                <td>{{ log.log_text }}</td>
+                <td>{{ log.timestamp }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    </div>
+
+    <h2>Error Log</h2>
+    <div style="background-color: #f1f1f1; padding: 20px; white-space: pre-wrap; max-height: 400px; overflow-y: auto;">
+        <pre>{{ error_log }}</pre>
+    </div>
+
+    <br>
+    <a href="{{ url_for('dashboard.index') }}" class="btn btn-primary">Quay lại Dashboard</a>
+{% endblock %}

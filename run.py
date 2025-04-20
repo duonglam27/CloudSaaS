@@ -3,6 +3,11 @@ from app import create_app, db
 from app.models import User, Domain
 
 app = create_app()
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
+app.logger.setLevel(logging.DEBUG)
+
 
 if __name__ == "__main__":
     with app.app_context():

@@ -7,6 +7,8 @@ import ipaddress
 
 from app import db
 
+
+
 class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
     email = db.Column(db.String(120), unique=True, nullable=False, index=True)
@@ -65,3 +67,20 @@ class Domain(db.Model):
 
     def __repr__(self):
         return f"<Domain {self.domain_name} - Backend IP: {self.backend_ip}>"
+
+
+class WAFLogs(db.Model):
+    __tablename__ = 'waf_logs'
+
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+
+    # Liên kết với domain qua ForeignKey
+    domain_id = db.Column(db.Integer, db.ForeignKey('domain.id'), nullable=False)
+    log_text = db.Column(db.Text, nullable=False)
+    timestamp = db.Column(db.DateTime, default=datetime.utcnow)
+
+    # Quan hệ với model Domain (1 log thuộc 1 domain)
+    domain = db.relationship('Domain', backref=db.backref('logs', lazy='dynamic'))
+
+    def __repr__(self):
+        return f'<WAFLogs {self.log_text} - {self.timestamp}>'
