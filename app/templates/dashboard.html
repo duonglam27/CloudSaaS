@@ -108,8 +108,8 @@
 
 <h2>Danh sách các Domain:</h2>
 <ul class="domain-list">
-    {% if domains %}
-        {% for domain in domains %}
+    {% if user.domains %}
+        {% for domain in user.domains %}
             <li class="domain-item">
                 <div>
                     <strong>{{ domain.domain_name }}</strong> – {{ domain.backend_ip }}
@@ -124,5 +124,4 @@
         <p>Hiện tại bạn chưa có domain nào. <a href="{{ url_for('domains.add_domain') }}">Thêm domain mới</a>.</p>
     {% endif %}
 </ul>
-
 {% endblock %}

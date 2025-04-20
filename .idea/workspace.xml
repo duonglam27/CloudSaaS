@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="838311c7-603f-4ba4-84ce-f75f74e49000" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/templates/view_log.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/logs.py" afterDir="false" />
+    <list default="true" id="838311c7-603f-4ba4-84ce-f75f74e49000" name="Changes" comment="&quot;2010&#10;&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/nginx_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/nginx_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/reload_waf.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/reload_waf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/dashboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/domains.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/domains.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth.log" beforeDir="false" afterPath="$PROJECT_DIR$/auth.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +96,20 @@
       <option name="presentableId" value="Default" />
       <updated>1744918598052</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;2010&#10;&quot;">
+      <option name="closed" value="true" />
+      <created>1745148729909</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745148729909</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;2010&#10;&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;2010&#10;&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

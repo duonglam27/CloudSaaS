@@ -61,11 +61,11 @@ def view_logs(domain_id):
     logs = []
     try:
         # Sử dụng context manager cho DB để tự động đóng connection
-        with db.cursor() as cursor:
-            cursor.execute(
-                "SELECT timestamp, log_text FROM waf_logs WHERE domain = %s ORDER BY timestamp DESC LIMIT 100",
-                (domain,)
-            )
+        # with db.cursor() as cursor:
+        #     cursor.execute(
+        #         "SELECT timestamp, log_text FROM waf_logs WHERE domain = %s ORDER BY timestamp DESC LIMIT 100",
+        #         (domain,)
+        #     )
             logs = WAFLogs.query.filter_by(domain_id=domain_id).order_by(WAFLogs.timestamp.desc()).all()
     except Exception as e:
         logging.error(f"Error retrieving logs for domain {domain}: {e}")
